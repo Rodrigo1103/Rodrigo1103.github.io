@@ -1,17 +1,22 @@
 body{
-    background-color: grey;
+    background-color: black;
 }
 .loli {color:white;
     font-family:  'Princess Sofia', cursive;; 
     text-align: center;
-    text-shadow:2px 2px 20px black;
+    text-shadow:2px 2px 50px black;
     font-size:80px;
+    backdrop-filter: blur(5px);
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+.loli2 {
     background-image: url("colores.webp");
-    border: 2px solid black;
-    padding-top: 1px;
-    /*padding-right: 80x;*/
-    padding-bottom: 1px;
-    /*padding-left: 80px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    padding: 0px;
 }
 span {color:white;
     font-family: Arial, Helvetica, sans-serif;
@@ -20,33 +25,35 @@ span {color:white;
     text-shadow:2px 2px 20px black;
 }
 
+ul {
+    padding:0;
+    margin-top: 10px;
+    width: 100%;
+}
+li {display:inline}
 
-a {text-decoration: none;}
-
-
-.carrusel{
-    display: flex;
-    justify-content: center;
-    
-    gap: 10px;
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.carrusel ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-width: 500px;
-    scroll-behavior: smooth;
+.a1 {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 30%;
+    color: white;
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0%;
 }
-.carrusel-fotos{
-    display: flex;
-    gap: 10px;
-    overflow:auto;
+.a1:hover{
+    background-color:blue;
 }
-.carrusel-fotos img{
-    width: 500px;
-    height: 300px;
-    border: 3px solid black;
-    object-fit: contain;
-    background: black;
-}
+
+
+
